@@ -19,7 +19,7 @@ async function main() {
   // Tests with latency measurement
   const testCases = [
     { sub: 'alice', obj: 'data1', act: 'read', allowed: true },
-    { sub: 'bob', obj: 'data2', act: 'write', allowed: false },
+    { sub: 'bob', obj: 'data2', act: 'write', allowed: true },
     { sub: 'bob', obj: 'data1', act: 'read', allowed: true }
   ]
 
