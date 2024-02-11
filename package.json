@@ -1,0 +1,22 @@
+{
+  "name": "keycloak-mongodb-rbac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "casbin": "^5.28.0",
+    "casbin-mongoose-adapter": "^5.3.1",
+    "dotenv": "^16.4.2",
+    "keycloak-js": "^23.0.6",
+    "mongoose": "^8.1.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.1"
+  }
+}
